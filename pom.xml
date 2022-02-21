@@ -12,20 +12,20 @@
 		<relativePath />
 	</parent>
 
-	<groupId>com.mycompany</groupId>        <!-- FIXME: Your organization groupId here -->
-	<artifactId>GaussFiltering</artifactId> <!-- FIXME: Your project artifactId here   -->
+	<groupId>com.sweeneylab</groupId>
+	<artifactId>MattImage</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
 
-	<name>Gauss Filtering</name>                                               <!-- FIXME: Your project name here          -->
-	<description>A Maven project implementing an ImageJ command.</description> <!-- FIXME: Your project description here   -->
-	<url>https://mycompany.com/imagej/gauss-filtering/</url>                   <!-- FIXME: Your project website here       -->
-	<inceptionYear>2017</inceptionYear>                                        <!-- FIXME: Your project starting year here -->
+	<name>Matt Image</name>
+	<description>A Maven project implementing an ImageJ command.</description>
+	<url>https://jonesnoaht.com/imagej/gauss-filtering/</url>
+	<inceptionYear>2022</inceptionYear>
 	<organization>
-		<name>My Company</name>           <!-- FIXME: Your organization name here    -->
-		<url>https://mycompany.com/</url> <!-- FIXME: Your organization website here -->
+		<name>Sweeney Lab</name>
+		<url>https://www.ufl.edu/</url>
 	</organization>
 	<licenses>
-		<license>                         <!-- FIXME: Your license here -->
+		<license>
 			<name>CC0</name>
 			<url>https://creativecommons.org/publicdomain/zero/1.0/</url>
 			<distribution>repo</distribution>
@@ -33,11 +33,10 @@
 	</licenses>
 
 	<developers>
-		<!-- See https://imagej.net/Team -->
 		<developer>
-			<id>octocat</id>                                          <!-- FIXME: Your GitHub handle here -->
-			<name>Noma Onomatopoeia</name>                            <!-- FIXME: Your name here          -->
-			<url>https://mycompany.com/people/noma-onomatopoeia</url> <!-- FIXME: Your website here       -->
+			<id>jonesnoaht</id>
+			<name>Noah Jones</name>
+			<url>https://directory.ufhealth.org/jones-noah</url> <!-- FIXME: Your website here       -->
 			<roles>
 				<role>founder</role>
 				<role>lead</role>
@@ -51,7 +50,7 @@
 	</developers>
 	<contributors>
 		<contributor>
-			<name>None</name>
+			<name>Matt</name>
 		</contributor>
 	</contributors>
 
@@ -77,10 +76,10 @@
 	</ciManagement>
 
 	<properties>
-		<package-name>com.mycompany.imagej</package-name>                   <!-- FIXME: Your project package prefix here -->
-		<main-class>com.mycompany.imagej.GaussFiltering</main-class>        <!-- FIXME: Your project main class here, or delete for none -->
-		<license.licenseName>cc0</license.licenseName>                      <!-- FIXME: Your license-maven-plugin license code here -->
-		<license.copyrightOwners>My Company, Inc.</license.copyrightOwners> <!-- FIXME: Your organization legal entity name here -->
+		<package-name>com.sweeneylab.imagej</package-name>
+		<main-class>com.sweeneylab.imagej.MattImage</main-class>
+		<license.licenseName>cc0</license.licenseName>
+		<license.copyrightOwners>University of Florida Board of Trustees</license.copyrightOwners>
 	</properties>
 
 	<repositories>
